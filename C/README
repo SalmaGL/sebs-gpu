@@ -1,0 +1,21 @@
+To compile the code just set the NETCDFDIR and CC. You can change other variables as you wish.
+
+Make sure that the NetCDF is compiled with the same C compiler.
+
+Once you have set the parameter accordingly, you can just type 
+
+make 
+
+and everything should be compiled.
+
+Remember the main SEBS functions are:
+
+- constants.h
+- SEBS_EnergyBalance.{c,h}
+- SEBS_Daily_Evapotranspiration.{c,h}
+- SEBS_kb_1.{c,h}
+- SEBS_kb_1_yang_bulktransfercoefficients.{c,h}
+- SEBS_kb_1_yang.{c,h}
+- SEBS_kb_1_yang_MOlength.{c,h}
+
+The other functiosn are just there to show how to use these three functions in your own code.

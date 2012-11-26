@@ -5,6 +5,11 @@
 #include "AUXFunc.cuh"
 #include <stdio.h>
 
+/* NOTE: Skip to "Main Calculation Loop" to see how to use the SEBS functions. 
+         Most of the code here is just to show how to read data and feed it to
+         the calculation part. Depending on your program this part can change.
+*/
+
 int main(void)
 {
 	/* Defining Variables *****************************************************/
