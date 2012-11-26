@@ -1,0 +1,18 @@
+To compile the code just set the NETCDFDIR and CompArch. You can change other variables as you wish.
+
+Make sure that the NetCDF is compiled with the same compiler as nvcc is going to use as C compiler.
+
+Once you have set the parameter accordingly, you can just type 
+
+make 
+
+and everything should be compiled.
+
+Remember the main SEBS functions are:
+
+- constants.h
+- SEBS_EnergyBalance.{cu,cuh}
+- SEBS_Daily_Evapotranspiration.{cu,cuh}
+- SEBS_kb_1.{cu,cuh}
+
+The other functiosn are just there to show how to use these three functions in your own code.
