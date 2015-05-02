@@ -1,0 +1,1 @@
+Collection of code and sample data to estimate Evapotranspiration (Evaporation + Transpiration) using meteorological and remote sensing data. The code make use of many cores available on NVIDIA GPUs.
